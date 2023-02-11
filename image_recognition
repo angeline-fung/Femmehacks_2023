@@ -1,0 +1,25 @@
+import pytesseract
+
+def extract_items_from_receipt(image_path):
+    # Apply OCR to extract the text from the image
+    text = pytesseract.image_to_string(image_path)
+    
+    # Split the text into lines
+    lines = text.split("\n")
+    
+    # Initialize a dictionary to store the items and their quantities
+    items = []
+    
+    # Loop through each line and try to extract the item and quantity
+    for line in lines:
+        # Split the line into words
+        words = line.split()
+        if len(words) > 0 and words[0][0].isalpha():
+            item = " ".join(words)
+            items.append(item)
+    
+    return items
+
+# Test the function with an example image
+# items = extract_items_from_receipt("/Users/may/Downloads/receipt.jpeg")
+# print(items)
