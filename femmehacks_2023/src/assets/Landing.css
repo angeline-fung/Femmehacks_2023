@@ -8,6 +8,10 @@
     background: #F3F1DD;
 }
 
+body {
+    background-color: #F3F1DD;
+}
+
 h {
     text-align: left;
     /* margin-top: -50%;
@@ -16,11 +20,92 @@ h {
     
     font-family: 'Nunito', sans-serif;;
     font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 35px;
     line-height: 57px;
     color: #000000;
     }
+
+p {
+    /* text-align: left; */
+    /* margin-top: -50%;
+    margin-left: 15%;
+    margin-right: 15%; */
     
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 57px;
+    color: #000000;
+    }
+
+.top-line {
+    display: grid; 
+    justify-content: left;
+    align-items: center;
+    
+}
+.one, .two {
+    margin-left:10%;
+    margin-top:3%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left:10%;
+}
+
+.backgroundBox {
+    display: grid; 
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.backBox {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.friedgeWrapper {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.about {
+    grid-column: 1;
+    grid-row: 1;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+
+ }
+
+.startButton {
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -12%;
+    margin-left: 30%;
+
+}
+
+
+.greenBigBtn {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #FBFAEE;
+    background: #7FB240;
+    border: "none";
+    border-radius: 30px;
+    width: 200px;
+    height: 55px;
+}
 
 
