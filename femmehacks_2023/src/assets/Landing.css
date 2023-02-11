@@ -1,0 +1,26 @@
+
+
+/* Landing */
+.backGround {
+    /* position: relative;
+    width: 1440px;
+    height: 1024px; */
+    background: #F3F1DD;
+}
+
+h {
+    text-align: left;
+    /* margin-top: -50%;
+    margin-left: 15%;
+    margin-right: 15%; */
+    
+    font-family: 'Nunito', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #000000;
+    }
+    
+
+
