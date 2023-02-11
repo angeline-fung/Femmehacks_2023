@@ -1,0 +1,121 @@
+
+
+/* Items */
+.backGround {
+ 
+    background: #F3F1DD;
+
+}
+
+body {
+    background-color: #F3F1DD;
+}
+
+h {
+    text-align: left;
+    /* margin-top: -50%;
+    margin-left: 15%;
+    margin-right: 15%; */
+    
+    font-family: 'Nunito', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57px;
+    color: #000000;
+    }
+
+p {
+    /* text-align: left; */
+    /* margin-top: -50%;
+    margin-left: 15%;
+    margin-right: 15%; */
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 57px;
+    color: #000000;
+    }
+
+.top-line {
+    display: grid; 
+    justify-content: left;
+    align-items: center;
+    margin-left: 1.5%;
+}
+.one, .two {
+    margin-left:35%;
+    margin-top:5%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left:10%;
+}
+
+.boxWrapper {
+    display: grid;
+
+}
+
+.friedgeWrapper {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 3%;
+    margin-left: 20%;
+
+}
+
+.btnWrapper {
+    grid-column: 2;
+    grid-row: 1;
+}
+ 
+
+.recipeWrapper {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 30%;
+    margin-left: 3%;
+
+}
+
+
+.startButton {
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 70%;
+}
+
+
+.greenBigBtn {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #FBFAEE;
+    background: #7FB240;
+    border: "none";
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.greensmallBtn {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #FBFAEE;
+    background: #7FB240;
+    border: "none";
+    border-radius: 40px;
+    width: 300px;
+    height: 80px;
+    margin-left: 10%;
+}
+
+
