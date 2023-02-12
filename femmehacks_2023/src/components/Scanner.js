@@ -1,7 +1,6 @@
 import "../assets/Scanner.css";
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
-import bg from "../images/background.png";
 import "../assets/Landing.css";
 import styled from "styled-components";
 
@@ -35,15 +34,5 @@ function Scanner() {
   );
 }
 
-const Background = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  background-size: cover;
-  background-image: url(${bg});
-`;
 
 export default Scanner;

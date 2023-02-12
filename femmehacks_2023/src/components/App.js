@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Landing from "./Landing.js";
 import Scanner from "./Scanner.js";
 import Items from "./Items.js";
+import Fridge from "./fridge.html";
 
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
         <Route path="/home" element={<Landing />} />
         <Route path="/scanner" element={<Scanner />} />
         <Route path="/items" element={<Items />} />
+        <Route path="/fridge" element={<Fridge />} />
+      
 
-    <Routes>
+      </Routes>
   );
 }
 
