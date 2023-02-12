@@ -14,9 +14,12 @@ function Items() {
                     <Tops src={topLine} />
                 </div>
                 <div className='one' style={{marginLeft:'62%', marginTop: '15%'}}>
-                    <p>
-                        <b>Your Fridge!</b>
-                    </p>
+                    <Link to="/fridge">
+                        <button type="button" className="greeenbtn" style={{border: "none"}}>
+                            <b>Your Fridge!</b>
+                        </button>
+                    </Link>
+
                 </div>
             </div>
 
