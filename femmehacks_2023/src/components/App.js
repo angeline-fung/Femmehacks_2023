@@ -10,12 +10,13 @@ import Items from "./Items.js";
 
 function App() {
   return (
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Landing />} />
+        <Route path="/scanner" element={<Scanner />} />
+        <Route path="/items" element={<Items />} />
+
     <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/home" element={<Landing />} />
-      <Route path="/scanner" element={<Scanner />} />
-      <Route path="/items" element={<Items />} />
-    </Routes>
   );
 }
 
