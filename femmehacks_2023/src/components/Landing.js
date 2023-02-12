@@ -12,13 +12,13 @@ function Landing() {
     return (
    
                 <div className="backGround">
-                    <div className="row top-line">
+                    <div className="top-line">
                         <div className='two'>
                             <Tops src={topLine} />
                         </div>
-                        <div className='one' style={{marginLeft:'15%', marginTop: '7%'}}>
-                            <h>
-                                Welcome to Fridge Foraging!
+                        <div id='one'>
+                            <h id='text'>
+                                Fridge Foraging!
                             </h>
                         </div>
                         <div className='three'>
@@ -41,14 +41,14 @@ function Landing() {
                             <div className="startButton">
                                 <div>
                                     <Link to="/scanner" className="btn">
-                                        <button type="button" class="btn-primary greenBigBtn" style={{border: "none"}}>
+                                        <button type="button" class="btn greenBtn" style={{border: "none"}}>
                                             <b>Scan Your Receipt</b>
                                         </button>
                                     </Link>
                                 </div>
                                 <div>
                                     <Link to="/items">
-                                        <button type="button" class="btn-primary greenBigBtn" style={{border: "none", marginLeft: "1%"}}>
+                                        <button type="button" class="btn greenBtn" style={{border: "none", marginLeft: "1%"}}>
                                             <b>Go To Your Fridge</b>
                                         </button>
                                     </Link>
@@ -62,8 +62,6 @@ function Landing() {
 const Fridges = styled.img`
     width: 370px;
     height: 380px;
-    left: 34px;
-    top: 341px;
 `;
 
 const Blocks = styled.img`
@@ -78,9 +76,8 @@ const Blocks = styled.img`
 
 
 const Tops = styled.img`
-    width: 500px;
+    width: 600px;
     height: 100px;
-    // margin-left: 1%;
     margin-top: 5%;
 `;
 
